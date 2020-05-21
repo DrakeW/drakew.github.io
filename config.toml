@@ -1,0 +1,58 @@
+baseURL = "http://junyuw.ninja/"
+languageCode = "en-us"
+title = "Homepage"
+theme = "anatole"
+enableEmoji = true
+summarylength = 10
+
+
+[params]
+title = "I'm Junyu Wang"
+author = "Junyu Wang"
+description = "Senior Software Engineer @ Splunk | Computer Science @ UC Berkeley"
+profilePicture = "images/profile.jpg"
+keywords = ""
+mainSections = ["posts"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/junyuw/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/DrakeW"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:junyuw@berkeley.edu"
+
+## Menu items
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
